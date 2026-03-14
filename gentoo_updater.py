@@ -13,16 +13,6 @@ import logging
 import json
 from datetime import datetime
 from pathlib import Path
-
-# ── PyQt6 imports ─────────────────────────────────────────────────────────────
-# PyQt6 key changes vs PyQt5:
-#   • All enums are fully-qualified  (Qt.AlignmentFlag.AlignLeft, not Qt.AlignLeft)
-#   • QAction / QActionGroup moved to QtGui
-#   • app.exec_() → app.exec()
-#   • QTextCursor.End → QTextCursor.MoveOperation.End
-#   • QSystemTrayIcon.DoubleClick → QSystemTrayIcon.ActivationReason.DoubleClick
-#   • QSystemTrayIcon.Information  → QSystemTrayIcon.MessageIcon.Information
-# ─────────────────────────────────────────────────────────────────────────────
 from PyQt6.QtWidgets import (
     QApplication, QSystemTrayIcon, QMenu, QMainWindow,
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
