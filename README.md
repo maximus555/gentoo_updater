@@ -40,7 +40,6 @@ python3 /opt/gentoo-updater/gentoo_updater.py &
 - **Persistent config** — `~/.local/share/gentoo-updater/config.json`
 ## Screenshots
 
-</div>
 <div style="display: flex; flex-wrap: wrap; justify-content: left; gap: 10px;">
     <img label="Dashboard" src="doc/images/dashboard.png" width="200"  alt="Dashboard"/>
     <img label="Output" src="doc/images/output.png" width="200"  alt="Output"/>
