@@ -4,7 +4,7 @@ Gentoo Auto Updater — KDE Plasma Application (PyQt6 edition)
 A system-tray application for automatic Gentoo Linux updates with KDE integration.
 
 Dependencies (Gentoo):
-    sudo emerge -av dev-python/PyQt6 app-portage/gentoolkit x11-libs/libnotify
+    sudo emerge -av dev-python/pyqt6 app-portage/gentoolkit x11-libs/libnotify
 """
 
 import sys
