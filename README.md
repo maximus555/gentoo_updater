@@ -2,8 +2,8 @@
 
 System-tray app for automatic Gentoo Linux updates with KDE Plasma integration.
 
-Warning
-It is written completely with AI and suits specifically MY needs, so use it at your own risk.
+> [!WARNING]
+> It is written completely with AI and suits specifically MY needs, so use it at your own risk.
 
 ## Installation
 
